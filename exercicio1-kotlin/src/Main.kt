@@ -34,7 +34,7 @@ fun main() {
     var novoOuro = ouroAcumulado + 500;
     var comprarPocao = novoOuro - 50;
     var feiticoVida = pontosDeVida * 2;
-    var xpPar = nivelPersonagem / 2;
+    var xpPar = nivelPersonagem % 2;
     println("Após comprar uma poção de vida, o personagem tem $comprarPocao de ouro e a poção de vida tem um poder de cura de $feiticoVida pontos de vida. com o nivel $xpPar");
 
     idadePersonagem+=10;
